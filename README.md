@@ -1,5 +1,8 @@
-# visual-follower
 # Gaze Tracker & Attention Monitor
+
+**Español** · [English](README.en.md)
+
+![pruebas](https://github.com/JohanGB/visual-follower/actions/workflows/pruebas.yml/badge.svg) ![Python](https://img.shields.io/badge/python-3.10%2B-3776AB) ![Licencia](https://img.shields.io/badge/licencia-MIT-green)
 
 Seguimiento de mirada con webcam, 100 % local y en CPU. Estima hacia dónde miras
 en la pantalla, avisa si llevas más de 3 segundos fuera de ella y, al salir,
@@ -8,7 +11,7 @@ genera un mapa de calor de tus fijaciones.
 Ningún frame se escribe en disco ni sale del equipo. La única conexión es la
 descarga inicial del modelo de MediaPipe (3.7 MB).
 
-![Mapa de calor generado con una sesión sintética](gaze-attention-monitor/docs/heatmap_demo.png)
+![Mapa de calor generado con una sesión sintética](docs/heatmap_demo.png)
 
 *Imagen de ejemplo generada con datos sintéticos.*
 
