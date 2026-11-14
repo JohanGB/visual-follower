@@ -70,7 +70,7 @@ words; extreme poses roughly double the error; single monitor.
 
 ```bash
 pip install pytest scikit-image
-pytest tests   # 86 tests; UI tested with real threads and headless Qt
+pytest tests   # 87 tests (2 skipped without the MediaPipe model); UI tested with real threads and headless Qt
 ```
 
 ---
