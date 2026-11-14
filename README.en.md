@@ -1,6 +1,8 @@
 # Gaze Tracker & Attention Monitor
 
-[Español](README.md) · **English**
+[Español](README.md) · **English** · [Portfolio page](https://johangb.github.io/en/projects/seguimiento-de-mirada.html)
+
+![tests](https://github.com/JohanGB/visual-follower/actions/workflows/pruebas.yml/badge.svg) ![Python](https://img.shields.io/badge/python-3.10%2B-3776AB) ![License](https://img.shields.io/badge/license-MIT-green)
 
 Webcam gaze tracking, **100 % local and CPU-only**. It estimates where you are looking on the
 screen, warns you after more than 3 seconds looking away, and on exit generates a heatmap of your
@@ -68,7 +70,7 @@ words; extreme poses roughly double the error; single monitor.
 
 ```bash
 pip install pytest scikit-image
-pytest tests   # 86 tests; UI tested with real threads and headless Qt
+pytest tests   # 87 tests (2 skipped without the MediaPipe model); UI tested with real threads and headless Qt
 ```
 
 ---
